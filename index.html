@@ -600,11 +600,11 @@ function renderCriarVaga(el) {
         <div><label class="lbl">Área</label><input id="fArea" class="inp" placeholder="Ex: Educação, Assistência Social"></div>
       </div>
       <div class="grid-2" style="margin-bottom:.9rem">
-        <div><label class="lbl">Projeto / Programa</label><input id="fProjeto" class="inp" placeholder="Ex: SCFV, Projeto Juventude..."></div>
+        <div><label class="lbl">Tipologia</label><input id="fProjeto" class="inp" placeholder="Ex: Serviço Social, Projeto Cultural..."></div>
         <div><label class="lbl">Nível</label>
           <select id="fNivel" class="inp">
             <option value="">Selecionar...</option>
-            ${["Estágio","Júnior","Pleno","Sênior","Coordenação","Gerência","Voluntário"].map(v=>`<option>${v}</option>`).join('')}
+            ${["Estágio","Júnior","Pleno","Sênior","Técnico","Assistente Técnico","Administrativo","Orientador","Operacional","Coordenação","Gerência","Voluntário"].map(v=>`<option>${v}</option>`).join('')}
           </select>
         </div>
       </div>
